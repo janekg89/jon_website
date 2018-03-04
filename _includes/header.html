@@ -1,12 +1,35 @@
 <header id="header">
 
-  <nav>
-    {% for item in site.data.settings.menu %}
-      <a href="{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
-  </nav>
 
-  <h1><span>{{ site.data.settings.title }}</span></h1>
-  <p class="kicker">{{ site.data.settings.description }}</p>
+
+    <div class="left">
+        <nav>
+            {% for item in site.data.settings.menu1 %}
+                <a href="{{ item.url }}">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+    <div class="right">
+        <nav>
+        {% for item in site.data.settings.menu2 %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+        </nav>
+    </div>
+
+    <div class="centered_nav">
+        <nav>
+            {% for item in site.data.settings.menu3 %}
+                <a href="{{ item.url }}">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+
+
+   <h1>
+
+   </h1>
+
+  <!-- <p class="kicker">{{ site.data.settings.description }}</p> -->
 
 </header>

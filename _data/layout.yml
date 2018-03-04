@@ -5,8 +5,11 @@ animation: "bounceOut"
 # Images
 
 logo: "logo.svg"
-hero: "hero-bg.jpg"
-avatar: "travitar.jpg"
+logo2: "yutmanrecords2.svg"
+hero: "header-pig2.jpg"
+hero2: "hero-bg.jpg"
+avatar: "avatar_jon1.jpg"
+gif: "smallgif.gif"
 
 # Colors
 

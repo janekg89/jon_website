@@ -4,14 +4,31 @@
   margin: 0 auto
   +align-items(center)
   +justify-content(space-between)
+  text-align: center
+
 
   .face-img
+    display: block
+    text-align: center
     border-radius: 50%
     background-size: cover
     background-position: center
     background-image: url(../img/#{$avatar-path})
+    background:
+      position: center center
+      repeat: no-repeat
+    margin: 0 auto 30px
     +size(200px)
     +order(3)
+
+
+  div
+    display: inline-block
+
+
+
+    [class^="icon-"]
+      margin: 10px 9%
 
   [class^="icon-"]
     +size(100px)
@@ -40,6 +57,7 @@
 
     .face-img
       display: block
+
       background:
         position: center center
         repeat: no-repeat
@@ -52,7 +70,8 @@
 
 
 .blurb
-  max-width: 620px
+  //max-width: 620px
+  width: 90%
   padding: 0 20px
   margin: 50px auto
   font-size: 24px

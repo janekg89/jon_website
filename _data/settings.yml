@@ -1,16 +1,22 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
+title: Jon Moon
+description: Reggae Music
+email: info@jonmoonmusic.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
-menu:
-- {name: About Me, url: '#about-me'}
+menu1:
+- {name: Jon Moon, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+
+menu2:
+- {name: Contact, url: '#contact'}
+
+menu3:
+- {name: Jon Moon, url: '#about-me'}
+- {name: Work, url: '#work'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -39,10 +45,25 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Travis specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+  Jon Moon is a young and upcoming Reggae artist from Berlin. He was born in 1996 into a very musical family and he began playing piano at the age of five.
+  The drums fallowed three years later and became his main instrument.
+
+
+  After finishing school in 2015 Jon Moon enrolled at the University of Arts
+  (UDK) in Berlin for orchestral percussion. but changed after two years to the
+  University for the Popular Arts (hdpk) where he was granted a scholarship in
+  music-production.
+
+
+  Jon Moon has been writing and recording his own songs since the age of thirteen and soon his love for music turned into
+  a love for Reggae music. Through reading and his says in South Africa he learned about Rastafari.
+
+
+  In 2016 he published his first single "Unification" featuring Jamaican Reggae
+  artist Lutan Fyah. Later that year he started recording his debut album
+  "TRUST." with some of Germany‘s best Reggae musicians. The album was
+  mixed and mastered by German producer Ganiaman and released by Jon
+  Moon's label Yutman Records, the 12th of December 20l7.
 
 
 skills:
@@ -101,11 +122,8 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
-- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
-- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
 - {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
-
+- {icon: 'facebook', link: 'https://www.facebook.com/jonmoonmusic/'}
+#- {icon: 'spotify', link: 'https://open.spotify.com/artist/2acpY0ZgZ7W1AWTj4qaDnJ'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

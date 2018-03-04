@@ -7,8 +7,12 @@
 // Transition the image paths from the settings file to usable SASS variables
 $animation: {{ site.data.layout.animation }}
 $logo-path: '{{ site.data.layout.logo }}'
+$logo2-path: '{{ site.data.layout.logo2 }}'
+
 $hero-path: '{{ site.data.layout.hero }}'
 $avatar-path: '{{ site.data.layout.avatar }}'
+$hero2-path: '{{ site.data.layout.hero2}}'
+
 
 $projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %}
 

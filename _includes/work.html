@@ -1,50 +1,24 @@
 <section class="section-work">
 
   <h3 id="work">Work</h3>
-  {% for project in site.data.settings.projects %}
-    <input type="radio" name="trigger" class="trigger" id="{{ project.folder }}" />
-  {% endfor %}
 
-  <input type="radio" name="trigger" id="return" class="return" />
+
 
   <div class="work-belt">
 
     <div class="thumb-wrap">
       <div class="thumb-container">
-      {% for project in site.data.settings.projects %}
-      <label for="{{ project.folder }}">
-        <div class="thumb-unit" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
-          <img src="{{ site.github.url }}/assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
+        <div class="thumb-unit">
+          <iframe class="thumb-unit" width="100%" height="auto" src="http://www.youtube.com/embed/Rw4ZgDra40s?color=white&theme=light"></iframe>
         </div>
-        <div class="thumb-overlay">
-          <strong>{{ project.name }}</strong>
+        <div class="thumb-unit">
+          <iframe class="thumb-unit" width="100%" height="auto" src="http://www.youtube.com/embed/wAZTIWZFefw?color=white&theme=light"></iframe>
         </div>
-      </label>
-      {% endfor %}
-    </div>
-    </div>
+        <div class="thumb-unit">
+          <iframe src="https://open.spotify.com/embed/album/65aLU3Iw91u4OlAksRS7XW?" width="100%" height="380" frameborder="0" allowtransparency="true"></iframe>
 
-    <div class="work-wrap">
-      <div class="work-container">
-      <label for="return">
-        <div class="work-return">{% include icons/icon-back.html %}</div>
-      </label>
-      <h4 class="project-title"></h4>
-      <div class="project-load"></div>
-
-      <noscript>
-        {% for project in site.data.settings.projects %}
-          <div class="noscript" id="content-{{ project.folder }}">
-            <h4 class="project-title">{{ project.name }}</h4>
-            <div class="noscript-load">
-              {% include {{project.file}} %}
-            </div>
-          </div>
-        {% endfor %}
-      </noscript>
-
+        </div>
+      </div>
     </div>
-    </div>
-
   </div>
 </section>
